@@ -32,4 +32,4 @@ Supports ordinary Windows paths below 260 characters; filenames up to 255 charac
 
 Run `powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1` in this folder. The included source uses the Windows .NET Framework compiler, with no downloads or external packages.
 
-The release executable includes the PL Studio logo in the window header and works independently of the source PNG and ICO files. The logo PNG is not distributed in this repository. Source builds work without it; optionally place your own `PLstu_small.png` in this folder to embed a header logo. App.ico supplies the executable, window, and taskbar icon.
+The included `PLstu_small.png` supplies the PL Studio logo shown in the window header and is embedded automatically when building from source. `App.ico` supplies the executable, window, and taskbar icon. The release executable includes these assets and runs independently of the PNG and ICO files. Source builds also work without the optional logo PNG.
